@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calorie Budget</title>
+    <link rel="stylesheet" type="text/css" href="/home/kevin/CoronaChan/calorieBudget.css">
+</head>
+<body>
+
+<p>Fill Out the form below to get your BMR</p>
+<form>
+    <h1>Calorie Budget</h1>
+    <!--<input type="radio" id="gender" name="gender" value="88.362">
+    <label for="male">Male</label>
+    <input type="radio" id="gender" name="gender" value="447.593">
+    <label for="female">Female</label>-->
+    <br>
+
+	<label for="weight" >Weight in Kilograms</label>
+	<input id="weight"  type="text">
+    <br>
+	<label for="height" >Height in centimeters</label>
+	<input id="height"  type="text">
+    <br>
+	<label for="age" >Age</label>
+    <input id="age"  type="text" name="age">
+    <br><br><br>
+    <select name="activity" id="activity">
+    <option value="">--Please choose an option--</option>
+    <option value="1.10">Sedentary</option>
+    <option value="1.20">Low Activity</option>
+    <option value="1.30">Moderate Activity</option>
+    <option value="1.40">Active</option>
+    <option value="1.60">Very Active</option>
+</select>
+
+   <!-- <input  type="radio" id="activity" name="activity" value="1.10">
+    <label  for="Sedentary">Sedentary</label>
+    <br>
+    <input  type="radio" id="activity" name="activity" value="1.20">
+    <label  for="LowActivity">Low Activity</label>
+    <br>
+    <input  type="radio" id="activity" name="activity" value="1.20">
+    <label  for="ModerateActivity">light Activity</label>
+    <br>
+    <input  type="radio" id="activity" name="activity" value="1.4">
+
+    <label  for="Active">Active</label>
+    <br>
+    <input  type="radio" id="activity" name="activity" value="1.6">
+    <label  for="VeryActive">Very Active</label> --->
+
+<p id="results"></p>
+
+    <button id="btn" onclick="bmi()">Submit</button>
+
+  
+
+</form>
+
+ <script type="text/javascript" src="/home/kevin/CoronaChan/calorieBudget.js"></script>
+	
+    
+
+</body>
+</html>
