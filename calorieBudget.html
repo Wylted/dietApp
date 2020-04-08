@@ -9,19 +9,24 @@
 <p>Fill Out the form below to get your Calorie Budget</p>
 <form>
     <h1>Calorie Budget</h1>
+<!--sex-->
+
     <select name="sex" id="sex">
         <option value="">Choose Sex</option>
         <option value="male">Male</option>
         <option value="female">Female</option>
     </select>
-    <!--<input type="radio" id="gender" name="gender" value="88.362">
-    <label for="male">Male</label>
-    <input type="radio" id="gender" name="gender" value="447.593">
-    <label for="female">Female</label>-->
+<!--weight-->
     <br>
 
-	<label for="weight" >Weight in Kilograms</label>
+    <select id="w_unit">
+        <option value="1">Kilograms</option>
+        <option value="3">Pounds</option>
+    </select>
+
+
 	<input id="weight"  type="text">
+
     <br>
 	<label for="height" >Height in centimeters</label>
 	<input id="height"  type="text">
@@ -38,21 +43,7 @@
     <option value="1.60">Very Active</option>
 </select>
 
-   <!-- <input  type="radio" id="activity" name="activity" value="1.10">
-    <label  for="Sedentary">Sedentary</label>
-    <br>
-    <input  type="radio" id="activity" name="activity" value="1.20">
-    <label  for="LowActivity">Low Activity</label>
-    <br>
-    <input  type="radio" id="activity" name="activity" value="1.20">
-    <label  for="ModerateActivity">light Activity</label>
-    <br>
-    <input  type="radio" id="activity" name="activity" value="1.4">
-
-    <label  for="Active">Active</label>
-    <br>
-    <input  type="radio" id="activity" name="activity" value="1.6">
-    <label  for="VeryActive">Very Active</label> --->
+   
 
 <p id="results"></p>
 
