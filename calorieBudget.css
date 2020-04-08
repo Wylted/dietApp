@@ -24,15 +24,5 @@ h1{
 	font-weight: 600;
 }
 
-input {
-	color: #222f3e;
-	text-align: left;
-	font-size: 20px;
-	font-weight: 200;
-	outline: none;
-	border: none;
-	background: none;
-	border-bottom: 1px solid #341f97;
-	width: 200px;
-}
+
 

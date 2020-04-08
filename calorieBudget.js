@@ -15,22 +15,28 @@ function bmi() {
 
 var weight = document.getElementById('weight').value;
 var w_unit = document.getElementById('w_unit').value;
-var h = document.getElementById('height').value;
+var height = document.getElementById('height').value;
 var a = document.getElementById('age').value;
 var activity = document.getElementById('activity').value;
 var sex = document.getElementById('sex').value;
 var calculate;
 var w;
+var feet = document.getElementById('feet'.value);
+var inches = document.getElementById('inches'.value);
+var h;
 
-//change var w to var weight
-
-//declare w leave value blank
  
- 
+ if (inches > 0) {
+ 	inches = inches * 2.54;
+ }
 
-//grab w_unit of measurement
+ if (feet > 0) {
+ 	feet = feet *30.48;
+ }
 
-// if w unit value is equal kg then weight equals w if not than w equals weight divided by 2.205
+
+h = weight + inches + feet;
+
 
 if (w_unit < 2) {
 	w = 1 * weight;
