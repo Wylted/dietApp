@@ -20,6 +20,7 @@
     <br>
 
     <select id="w_unit">
+        <option>pound or kg?</option>
         <option value="1">Kilograms</option>
         <option value="3">Pounds</option>
     </select>
@@ -30,9 +31,8 @@
 <!--height-->
     <br>
     <div>
-        <label>Height in Centimeters<input id="height" type="text" placeholder="Centimeters" maxlength="3" size="11"></label>
-            <br>
-        <label>Or Height in feet and inches
+        <label>Height in<input id="height" type="text" placeholder="Centimeters" maxlength="3" size="11">
+        Or
         <input id="feet" type="text" placeholder="feet" maxlength="2" size="4">
         <input id="inches" type="text" placeholder="inches" maxlength="2" size="5"></label>
     </div>
@@ -41,13 +41,16 @@
 	<label for="age" >Age</label>
     <input id="age"  type="text" name="age">
     <br><br><br>
-    <select name="activity" id="activity">
+ <label>Choose Activity Level <br>
+     <select name="activity" id="activity">
     <option value="">--Please choose an option--</option>
     <option value="1.10">Sedentary</option>
     <option value="1.20">Low Activity</option>
     <option value="1.30">Moderate Activity</option>
     <option value="1.40">Active</option>
     <option value="1.60">Very Active</option>
+ </label>
+    
 </select>
 
    
