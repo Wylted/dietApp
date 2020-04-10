@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Diet App</title>
+</head>
+
+<body>
+	<form>
+      <div>
+      	<select name="sex" id="sex">
+           <option value="">Choose Sex</option>
+           <option value="1">Male</option>
+           <option value="2">Female</option>
+        </select>
+      </div>
+
+      <div id="weight">
+      	    <label>Choose pounds or kilograms
+	    <input id="kilograms"  type="text" placeholder="Kilograms">
+	    <input id="pounds"  type="text" placeholder="pounds">
+            </label>
+      </div>
+
+      <div>
+	      <label>How tall are you
+<select id="height">
+	
+        <option value="121"> 4' 0" 121 cm </option>
+	    <option value="124"> 4' 1" 124 cm </option>
+	    <option value="127"> 4' 2" 127 cm </option>
+		<option value="129"> 4' 3" 129 cm </option>
+		<option value="132"> 4' 4" 132 cm </option>
+		<option value="134"> 4' 5" 134 cm </option>
+		<option value="137"> 4' 6" 137 cm </option>
+		<option value="139"> 4' 7" 139 cm </option>
+		<option value="142"> 4' 8" 142 cm </option>
+		<option value="144"> 4' 9" 144 cm </option>
+		<option value="147"> 4' 10" 147 cm </option>
+		<option value="149"> 4' 11" 149 cm </option>
+		<option value="152"> 5' 0" 152 cm </option>
+		<option value="154"> 5' 1" 154 cm </option>
+		<option value="157"> 5' 2" 157 cm </option>
+		<option value="160"> 5' 3" 160 cm </option>
+		<option value="162"> 5' 4" 162 cm </option>
+		<option value="165"> 5' 5" 165 cm </option>
+		<option value="167"> 5' 6" 167 cm </option>
+		<option value="170"> 5' 7" 170 cm </option>
+		<option value="172"> 5' 8" 172 cm </option>
+		<option value="175"> 5' 9" 175 cm </option>
+		<option value="177"> 5' 10" 177 cm </option>
+        <option value="180"> 5' 11" 180 cm</option> 
+        <option value="182"> 6' 0" 182 cm</option> 
+        <option value="185"> 6' 1" 185 cm</option> 
+        <option value="187"> 6' 2" 187 cm </option>
+	    <option value="190"> 6' 3" 190 cm </option>
+		<option value="193"> 6' 4" 193 cm </option>
+		<option value="195"> 6' 5" 195 cm </option>
+		<option value="198"> 6' 6" 198 cm </option>
+		<option value="200"> 6' 7" 200 cm </option>
+		<option value="203"> 6' 8" 203 cm </option>
+
+</select></label>
+	    
+      </div>
+
+      <div>
+      	<label>How Old Are You 
+      	 <input type="number" min="20" max="120"></label>
+           
+      </div>
+
+      <div id="activity_level">
+	      <label>Choose Activity Level <br>
+             <select name="activity" id="activity">
+                <option value="">--Please choose an option--</option>
+                <option value="1.10">Sedentary</option>
+                <option value="1.20">Low Activity</option>
+                <option value="1.30">Moderate Activity</option>
+                <option value="1.40">Active</option>
+                <option value="1.60">Very Active</option>
+         </label></select>
+    
+      </div>	
+    
+        <button onclick="bmr()">Submit</button>
+
+	</form>
+<script type="text/javascript" src="calorieBudget2.js"></script>
+
+</body>
+</html>

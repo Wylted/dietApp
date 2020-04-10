@@ -1,8 +1,6 @@
 /* ask activity level
 Men	    BMR = 88.362 + (13.397 x weight in kg) + (4.799 x height in cm) – (5.677 x age in years)
 Women	BMR = 447.593 + (9.247 x weight in kg) + (3.098 x height in cm) – (4.330 x age in years 
-
-
 */
 
 // convert pounds to kilograms
@@ -21,21 +19,13 @@ var activity = document.getElementById('activity').value;
 var sex = document.getElementById('sex').value;
 var calculate;
 var w;
-var feet = document.getElementById('feet'.value);
-var inches = document.getElementById('inches'.value);
+var feet = document.getElementById('feet').value;
+var inches = document.getElementById('inches').value;
 var h;
 
- 
- if (inches > 0) {
- 	inches = inches * 2.54;
- }
-
- if (feet > 0) {
- 	feet = feet *30.48;
- }
 
 
-h = weight + inches + feet;
+h = height + parseInt(inches) * 2.54 + parseInt(feet) * 30.48
 
 
 if (w_unit < 2) {
