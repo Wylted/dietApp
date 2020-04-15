@@ -22,5 +22,13 @@ function bmr() {
 		calculate = 88.362 + 13.397  * w + 4.799 * parseInt(h) - 5.677 * parseInt(a);
 	}
 
-	alert(calculate * activity);
+    var bmr = Math.trunc(calculate * activity);
+ 
+
+
+	document.getElementById('bmr').innerHTML ="Your BMR is <span id='tdee'>" + bmr + " </span>calories";	
+
+
+
 }
+
