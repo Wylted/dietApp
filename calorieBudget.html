@@ -22,8 +22,8 @@
 
 		<select name="weight_unit" id="weight_unit" >
 			<option value="">Kgs or LBS</option>
-			<option value="kilograms">kilograms</option>
-			<option value="pounds">pounds</option>
+			<option value="kilograms">Kilograms</option>
+			<option value="pounds">Pounds</option>
 		</select>
 
 		<input placeholder="500" size="4" maxlength="4" type="text" name="weight" id="weight">
@@ -81,15 +81,19 @@
 
          
          <br>
+         <label>What is your goal?
+         <select name="goal" id="goal" >
+         	<option value="">Choose Goal</option>
+			<option value="0.75">Lose weight</option>
+			<option value="1.00">Mantain weight</option>
+			<option value="1.10">Gain weight</option>
+		</select></label>
+<br>
+         <br>
 
 		<submit type="button" onclick="bmr()" class="btn-primary">submit</submit>
 	</form>
 </div>
-	<div class="col-sm">
-
-
-		
-	</div>
 	<div class="col-sm">
 		<h2>Plan</h2>
 		<p id="bmr"></p>
